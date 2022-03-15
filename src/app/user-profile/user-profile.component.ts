@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {UserService} from '../services/user.service';
-
+import {VaccineScheduleComponent} from '../vaccine-schedule/vaccine-schedule.component';
 @Component({
   selector: 'app-user-profile',
   templateUrl: './user-profile.component.html',
@@ -17,6 +17,6 @@ export class UserProfileComponent implements OnInit {
    this.usersService.getUser().subscribe(user => {
      this.user = user;
    });
-
   }
+
 }
