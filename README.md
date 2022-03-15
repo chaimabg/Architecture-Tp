@@ -1,8 +1,8 @@
 # Tp Architecture
-Developing a web application for the EVAX platform (<i>Coronavirus Vaccinaction</i>).
+Developing a web application for the EVAX platform (<i>Coronavirus Vaccinaction</i>).<br/>
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.8.
 ## Architecture choice
-Angular follows a component oriented architecture, it implements a lot of the concepts of MVVM (<i>Model View ViewModel</i>).
+Angular follows a component oriented architecture, it implements a lot of the concepts of MVVM (<i>Model View ViewModel</i>).<br/>
 This architecture offers several advantages :
  <ul>
  <li>Two-Way Data Binding : is the time-saving feature that automates some processes in our application</li>
