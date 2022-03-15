@@ -1,0 +1,52 @@
+<!-- Appointment Start -->
+<div class="container-xxl py-5">
+  <div class="container">
+    <div class="row g-5">
+        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+          <p class="d-inline-block border rounded-pill py-1 px-4">Personal information</p>
+          <h1 class="mb-2">Citizen Space</h1>
+        </div>
+      <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="bg-light rounded d-flex align-items-center p-4 mb-4">
+          <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-white" style="width: 55px; height: 55px;">
+            <i class="fa fa-user text-primary"></i>
+          </div>
+          <div class="ms-4">
+            <p class="mb-2">Name</p>
+            <h5 class="mb-0">{{user.name}}</h5>
+          </div>
+        </div>
+        <div class="bg-light rounded d-flex align-items-center p-4">
+          <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-white" style="width: 55px; height: 55px;">
+            <i class="fa fa-envelope-open text-primary"></i>
+          </div>
+          <div class="ms-4">
+            <p class="mb-2">Email</p>
+            <h5 class="mb-0">{{user.email}}</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="bg-light rounded d-flex align-items-center p-4 mb-4">
+          <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-white" style="width: 55px; height: 55px;">
+            <i class="fa fa-phone-alt text-primary"></i>
+          </div>
+          <div class="ms-4">
+            <p class="mb-2">Phone number</p>
+            <h5 class="mb-0">{{user.phone}}</h5>
+          </div>
+        </div>
+        <div class="bg-light rounded d-flex align-items-center p-4">
+          <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-white" style="width: 55px; height: 55px;">
+            <i class="fa fa-address-card text-primary"></i>
+          </div>
+          <div class="ms-4">
+            <p class="mb-2">Address</p>
+            <h5 class="mb-0">{{user.address.street}}, {{user.address.city}}</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+      </div>
+  <app-vaccination></app-vaccination>
+</div>
