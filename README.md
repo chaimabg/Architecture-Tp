@@ -7,7 +7,7 @@ This architecture offers several advantages :
  <ul>
  <li>Two-Way Data Binding : is the time-saving feature that automates some processes in our application</li>
  <Li>Readable and Testable Code :  makes application's code logical, consistent, and easy to follow</Li>
- <Li>Efficient Problem-Solving Patterns :offers powerful DI (<i>Dependency Injection</i>) instrument and services to resolve various productivity issues and speed up the development process</Li>
+ <Li>Efficient Problem-Solving Patterns : offers powerful DI (<i>Dependency Injection</i>) instrument and services to resolve various productivity issues and speed up the development process</Li>
  </ul>
  
 ## Development server
